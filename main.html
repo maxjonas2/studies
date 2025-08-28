@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Definições - Artigo 6</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 30px;
+      background: #f9f9f9;
+    }
+    h1 {
+      text-align: center;
+      color: #333;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 20px;
+      font-size: 14px;
+    }
+    th, td {
+      padding: 10px;
+      border: 1px solid #ddd;
+      vertical-align: top;
+      text-align: left;
+    }
+    td:nth-child(2){
+      font-weight: bold;
+      text-transform: capitalize;
+    th {
+      background-color: #4CAF50;
+      color: white;
+    }
+    tr:nth-child(even) {
+      background-color: #f2f2f2;
+    }
+    tr:nth-child(odd) {
+      background-color: #ffffff;
+    }
+  </style>
+</head>
+<body>
+  <h1>Definições do Art. 6º - Lei 14.133/2021</h1>
+  <table id="tabela-definicoes">
+    <thead>
+      <tr>
+        <th>Inciso</th>
+        <th>Termo</th>
+        <th>Definição</th>
+      </tr>
+    </thead>
+    <tbody></tbody>
+  </table>
+
+  <script>
+    const definicoes = [
+  {
+    "inciso": 1,
+    "termo": "órgão",
+    "definicao": "Unidade de atuação integrante da estrutura da administração pública;"
+  },
+  {
+    "inciso": 2,
+    "termo": "entidade",
+    "definicao": "Unidade de atuação dotada de personalidade jurídica;"
+  },
+  {
+    "inciso": 3,
+    "termo": "Administração Pública",
+    "definicao": "Administração direta e indireta da união, dos estados, do distrito federal e dos municípios, inclusive as entidades com personalidade jurídica de direito privado sob controle do poder público e as fundações por ele instituídas ou mantidas;"
+  },
+  {
+    "inciso": 4,
+    "termo": "Administração",
+    "definicao": "Órgão ou entidade por meio do qual a administração pública atua;"
+  },
+  {
+    "inciso": 5,
+    "termo": "agente público",
+    "definicao": "Indivíduo que, em virtude de eleição, nomeação, designação, contratação ou qualquer outra forma de investidura ou vínculo, exerce mandato, cargo, emprego ou função em pessoa jurídica integrante da administração pública;"
+  },
+  {
+    "inciso": 6,
+    "termo": "autoridade",
+    "definicao": "Agente público dotado de poder de decisão;"
+  },
+  {
+    "inciso": 7,
+    "termo": "contratante",
+    "definicao": "Pessoa jurídica integrante da administração pública responsável pela contratação;"
+  },
+  {
+    "inciso": 8,
+    "termo": "contratado",
+    "definicao": "Pessoa física ou jurídica, ou consórcio de pessoas jurídicas, signatária de contrato com a administração;"
+  },
+  {
+    "inciso": 9,
+    "termo": "licitante",
+    "definicao": "Pessoa física ou jurídica, ou consórcio de pessoas jurídicas, que participa ou manifesta a intenção de participar de processo licitatório, sendo-lhe equiparável, para os fins desta lei, o fornecedor ou o prestador de serviço que, em atendimento à solicitação da administração, oferece proposta;"
+  },
+  {
+    "inciso": 10,
+    "termo": "compra",
+    "definicao": "Aquisição remunerada de bens para fornecimento de uma só vez ou parceladamente, considerada imediata aquela com prazo de entrega de até 30 (trinta) dias da ordem de fornecimento;"
+  },
+  {
+    "inciso": 11,
+    "termo": "serviço",
+    "definicao": "Atividade ou conjunto de atividades destinadas a obter determinada utilidade, intelectual ou material, de interesse da administração;"
+  },
+  {
+    "inciso": 12,
+    "termo": "obra",
+    "definicao": "Toda atividade estabelecida, por força de lei, como privativa das profissões de arquiteto e engenheiro que implica intervenção no meio ambiente por meio de um conjunto harmônico de ações que, agregadas, formam um todo que inova o espaço físico da natureza ou acarreta alteração substancial das características originais de bem imóvel;"
+  },
+  {
+    "inciso": 13,
+    "termo": "bens e serviços comuns",
+    "definicao": "Aqueles cujos padrões de desempenho e qualidade podem ser objetivamente definidos pelo edital, por meio de especificações usuais de mercado;"
+  },
+  {
+    "inciso": 14,
+    "termo": "bens e serviços especiais",
+    "definicao": "Aqueles que, por sua alta heterogeneidade ou complexidade, não podem ser descritos na forma do inciso xiii do caput deste artigo, exigida justificativa prévia do contratante;"
+  },
+  {
+    "inciso": 15,
+    "termo": "serviços e fornecimentos contínuos",
+    "definicao": "Serviços contratados e compras realizadas pela administração pública para a manutenção da atividade administrativa, decorrentes de necessidades permanentes ou prolongadas;"
+  },
+  {
+    "inciso": 16,
+    "termo": "serviços contínuos com regime de dedicação exclusiva de mão de obra",
+    "definicao": "Aqueles cujo modelo de execução contratual exige, entre outros requisitos, que: a) os empregados do contratado fiquem à disposição nas dependências do contratante para a prestação dos serviços; b) o contratado não compartilhe os recursos humanos e materiais disponíveis de uma contratação para execução simultânea de outros contratos; c) o contratado possibilite a fiscalização pelo contratante quanto à distribuição, controle e supervisão dos recursos humanos alocados aos seus contratos;"
+  },
+  {
+    "inciso": 17,
+    "termo": "serviços não contínuos ou contratados por escopo",
+    "definicao": "Aqueles que impõem ao contratado o dever de realizar a prestação de um serviço específico em período predeterminado, podendo ser prorrogado, desde que justificadamente, pelo prazo necessário à conclusão do objeto;"
+  },
+  {
+    "inciso": 18,
+    "termo": "serviços técnicos especializados de natureza predominantemente intelectual",
+    "definicao": "Aqueles realizados em trabalhos relativos a: a) estudos técnicos, planejamentos, projetos básicos e projetos executivos; b) pareceres, perícias e avaliações em geral; c) assessorias e consultorias técnicas e auditorias financeiras e tributárias; d) fiscalização, supervisão e gerenciamento de obras e serviços; e) patrocínio ou defesa de causas judiciais e administrativas; f) treinamento e aperfeiçoamento de pessoal; g) restauração de obras de arte e de bens de valor histórico; h) controles de qualidade e tecnológico, análises, testes e ensaios de campo e laboratoriais, instrumentação e monitoramento de parâmetros específicos de obras e do meio ambiente e demais serviços de engenharia que se enquadrem na definição deste inciso;"
+  },
+  {
+    "inciso": 19,
+    "termo": "notória especialização",
+    "definicao": "Qualidade de profissional ou de empresa cujo conceito, no campo de sua especialidade, decorrente de desempenho anterior, estudos, experiência, publicações, organização, aparelhamento, equipe técnica ou outros requisitos relacionados com suas atividades, permite inferir que o seu trabalho é essencial e reconhecidamente adequado à plena satisfação do objeto do contrato;"
+  },
+  {
+    "inciso": 20,
+    "termo": "estudo técnico preliminar",
+    "definicao": "Documento constitutivo da primeira etapa do planejamento de uma contratação que caracteriza o interesse público envolvido e a sua melhor solução e dá base ao anteprojeto, ao termo de referência ou ao projeto básico a serem elaborados caso se conclua pela viabilidade da contratação;"
+  },
+  {
+    "inciso": 21,
+    "termo": "serviço de engenharia",
+    "definicao": "Toda atividade ou conjunto de atividades destinadas a obter determinada utilidade, intelectual ou material, de interesse para a administração e que, não enquadradas no conceito de obra a que se refere o inciso xii do caput deste artigo, são estabelecidas, por força de lei, como privativas das profissões de arquiteto e engenheiro ou de técnicos especializados, que compreendem: a) serviço comum de engenharia: todo serviço de engenharia que tem por objeto ações, objetivamente padronizáveis em termos de desempenho e qualidade, de manutenção, de adequação e de adaptação de bens móveis e imóveis, com preservação das características originais dos bens; b) serviço especial de engenharia: aquele que, por sua alta heterogeneidade ou complexidade, não pode se enquadrar na definição constante da alínea “a” deste inciso;"
+  },
+  {
+    "inciso": 22,
+    "termo": "obras, serviços e fornecimentos de grande vulto",
+    "definicao": "Aqueles cujo valor estimado supera r$ 200.000.000,00 (duzentos milhões de reais);              (vigência)            vigência          vigência         vigência"
+  },
+  {
+    "inciso": 23,
+    "termo": "termo de referência",
+    "definicao": "Documento necessário para a contratação de bens e serviços, que deve conter os seguintes parâmetros e elementos descritivos: a) definição do objeto, incluídos sua natureza, os quantitativos, o prazo do contrato e, se for o caso, a possibilidade de sua prorrogação; b) fundamentação da contratação, que consiste na referência aos estudos técnicos preliminares correspondentes ou, quando não for possível divulgar esses estudos, no extrato das partes que não contiverem informações sigilosas; c) descrição da solução como um todo, considerado todo o ciclo de vida do objeto; d) requisitos da contratação; e) modelo de execução do objeto, que consiste na definição de como o contrato deverá produzir os resultados pretendidos desde o seu início até o seu encerramento; f) modelo de gestão do contrato, que descreve como a execução do objeto será acompanhada e fiscalizada pelo órgão ou entidade; g) critérios de medição e de pagamento; h) forma e critérios de seleção do fornecedor; i) estimativas do valor da contratação, acompanhadas dos preços unitários referenciais, das memórias de cálculo e dos documentos que lhe dão suporte, com os parâmetros utilizados para a obtenção dos preços e para os respectivos cálculos, que devem constar de documento separado e classificado; j) adequação orçamentária;"
+  },
+  {
+    "inciso": 24,
+    "termo": "anteprojeto",
+    "definicao": "Peça técnica com todos os subsídios necessários à elaboração do projeto básico, que deve conter, no mínimo, os seguintes elementos: a) demonstração e justificativa do programa de necessidades, avaliação de demanda do público-alvo, motivação técnico-econômico-social do empreendimento, visão global dos investimentos e definições relacionadas ao nível de serviço desejado; b) condições de solidez, de segurança e de durabilidade; c) prazo de entrega; d) estética do projeto arquitetônico, traçado geométrico e/ou projeto da área de influência, quando cabível; e) parâmetros de adequação ao interesse público, de economia na utilização, de facilidade na execução, de impacto ambiental e de acessibilidade; f) proposta de concepção da obra ou do serviço de engenharia; g) projetos anteriores ou estudos preliminares que embasaram a concepção proposta; h) levantamento topográfico e cadastral; i) pareceres de sondagem; j) memorial descritivo dos elementos da edificação, dos componentes construtivos e dos materiais de construção, de forma a estabelecer padrões mínimos para a contratação;"
+  },
+  {
+    "inciso": 25,
+    "termo": "projeto básico",
+    "definicao": "Conjunto de elementos necessários e suficientes, com nível de precisão adequado para definir e dimensionar a obra ou o serviço, ou o complexo de obras ou de serviços objeto da licitação, elaborado com base nas indicações dos estudos técnicos preliminares, que assegure a viabilidade técnica e o adequado tratamento do impacto ambiental do empreendimento e que possibilite a avaliação do custo da obra e a definição dos métodos e do prazo de execução, devendo conter os seguintes elementos: a) levantamentos topográficos e cadastrais, sondagens e ensaios geotécnicos, ensaios e análises laboratoriais, estudos socioambientais e demais dados e levantamentos necessários para execução da solução escolhida; b) soluções técnicas globais e localizadas, suficientemente detalhadas, de forma a evitar, por ocasião da elaboração do projeto executivo e da realização das obras e montagem, a necessidade de reformulações ou variantes quanto à qualidade, ao preço e ao prazo inicialmente definidos; c) identificação dos tipos de serviços a executar e dos materiais e equipamentos a incorporar à obra, bem como das suas especificações, de modo a assegurar os melhores resultados para o empreendimento e a segurança executiva na utilização do objeto, para os fins a que se destina, considerados os riscos e os perigos identificáveis, sem frustrar o caráter competitivo para a sua execução; d) informações que possibilitem o estudo e a definição de métodos construtivos, de instalações provisórias e de condições organizacionais para a obra, sem frustrar o caráter competitivo para a sua execução; e) subsídios para montagem do plano de licitação e gestão da obra, compreendidos a sua programação, a estratégia de suprimentos, as normas de fiscalização e outros dados necessários em cada caso; f) orçamento detalhado do custo global da obra, fundamentado em quantitativos de serviços e fornecimentos propriamente avaliados, obrigatório exclusivamente para os regimes de execução previstos nos incisos i, ii, iii, iv e vii do caput do art. 46 desta lei;"
+  },
+  {
+    "inciso": 26,
+    "termo": "projeto executivo",
+    "definicao": "Conjunto de elementos necessários e suficientes à execução completa da obra, com o detalhamento das soluções previstas no projeto básico, a identificação de serviços, de materiais e de equipamentos a serem incorporados à obra, bem como suas especificações técnicas, de acordo com as normas técnicas pertinentes;"
+  },
+  {
+    "inciso": 27,
+    "termo": "matriz de riscos",
+    "definicao": "Cláusula contratual definidora de riscos e de responsabilidades entre as partes e caracterizadora do equilíbrio econômico-financeiro inicial do contrato, em termos de ônus financeiro decorrente de eventos supervenientes à contratação, contendo, no mínimo, as seguintes informações: a) listagem de possíveis eventos supervenientes à assinatura do contrato que possam causar impacto em seu equilíbrio econômico-financeiro e previsão de eventual necessidade de prolação de termo aditivo por ocasião de sua ocorrência; b) no caso de obrigações de resultado, estabelecimento das frações do objeto com relação às quais haverá liberdade para os contratados inovarem em soluções metodológicas ou tecnológicas, em termos de modificação das soluções previamente delineadas no anteprojeto ou no projeto básico; c) no caso de obrigações de meio, estabelecimento preciso das frações do objeto com relação às quais não haverá liberdade para os contratados inovarem em soluções metodológicas ou tecnológicas, devendo haver obrigação de aderência entre a execução e a solução predefinida no anteprojeto ou no projeto básico, consideradas as características do regime de execução no caso de obras e serviços de engenharia;"
+  },
+  {
+    "inciso": 28,
+    "termo": "empreitada por preço unitário",
+    "definicao": "Contratação da execução da obra ou do serviço por preço certo de unidades determinadas;"
+  },
+  {
+    "inciso": 29,
+    "termo": "empreitada por preço global",
+    "definicao": "Contratação da execução da obra ou do serviço por preço certo e total;"
+  },
+  {
+    "inciso": 30,
+    "termo": "empreitada integral",
+    "definicao": "Contratação de empreendimento em sua integralidade, compreendida a totalidade das etapas de obras, serviços e instalações necessárias, sob inteira responsabilidade do contratado até sua entrega ao contratante em condições de entrada em operação, com características adequadas às finalidades para as quais foi contratado e atendidos os requisitos técnicos e legais para sua utilização com segurança estrutural e operacional;"
+  },
+  {
+    "inciso": 31,
+    "termo": "contratação por tarefa",
+    "definicao": "Regime de contratação de mão de obra para pequenos trabalhos por preço certo, com ou sem fornecimento de materiais;"
+  },
+  {
+    "inciso": 32,
+    "termo": "contratação integrada",
+    "definicao": "Regime de contratação de obras e serviços de engenharia em que o contratado é responsável por elaborar e desenvolver os projetos básico e executivo, executar obras e serviços de engenharia, fornecer bens ou prestar serviços especiais e realizar montagem, teste, pré-operação e as demais operações necessárias e suficientes para a entrega final do objeto;"
+  },
+  {
+    "inciso": 33,
+    "termo": "contratação semi-integrada",
+    "definicao": "Regime de contratação de obras e serviços de engenharia em que o contratado é responsável por elaborar e desenvolver o projeto executivo, executar obras e serviços de engenharia, fornecer bens ou prestar serviços especiais e realizar montagem, teste, pré-operação e as demais operações necessárias e suficientes para a entrega final do objeto;"
+  },
+  {
+    "inciso": 34,
+    "termo": "fornecimento e prestação de serviço associado",
+    "definicao": "Regime de contratação em que, além do fornecimento do objeto, o contratado responsabiliza-se por sua operação, manutenção ou ambas, por tempo determinado;"
+  },
+  {
+    "inciso": 35,
+    "termo": "licitação internacional",
+    "definicao": "Licitação processada em território nacional na qual é admitida a participação de licitantes estrangeiros, com a possibilidade de cotação de preços em moeda estrangeira, ou licitação na qual o objeto contratual pode ou deve ser executado no todo ou em parte em território estrangeiro;"
+  },
+  {
+    "inciso": 36,
+    "termo": "serviço nacional",
+    "definicao": "Serviço prestado em território nacional, nas condições estabelecidas pelo poder executivo federal;"
+  },
+  {
+    "inciso": 37,
+    "termo": "produto manufaturado nacional",
+    "definicao": "Produto manufaturado produzido no território nacional de acordo com o processo produtivo básico ou com as regras de origem estabelecidas pelo poder executivo federal;"
+  },
+  {
+    "inciso": 38,
+    "termo": "concorrência",
+    "definicao": "Modalidade de licitação para contratação de bens e serviços especiais e de obras e serviços comuns e especiais de engenharia, cujo critério de julgamento poderá ser: a) menor preço; b) melhor técnica ou conteúdo artístico; c) técnica e preço; d) maior retorno econômico; e) maior desconto;"
+  },
+  {
+    "inciso": 39,
+    "termo": "concurso",
+    "definicao": "Modalidade de licitação para escolha de trabalho técnico, científico ou artístico, cujo critério de julgamento será o de melhor técnica ou conteúdo artístico, e para concessão de prêmio ou remuneração ao vencedor;"
+  },
+  {
+    "inciso": 40,
+    "termo": "leilão",
+    "definicao": "Modalidade de licitação para alienação de bens imóveis ou de bens móveis inservíveis ou legalmente apreendidos a quem oferecer o maior lance;"
+  },
+  {
+    "inciso": 41,
+    "termo": "pregão",
+    "definicao": "Modalidade de licitação obrigatória para aquisição de bens e serviços comuns, cujo critério de julgamento poderá ser o de menor preço ou o de maior desconto;"
+  },
+  {
+    "inciso": 42,
+    "termo": "diálogo competitivo",
+    "definicao": "Modalidade de licitação para contratação de obras, serviços e compras em que a administração pública realiza diálogos com licitantes previamente selecionados mediante critérios objetivos, com o intuito de desenvolver uma ou mais alternativas capazes de atender às suas necessidades, devendo os licitantes apresentar proposta final após o encerramento dos diálogos;"
+  },
+  {
+    "inciso": 43,
+    "termo": "credenciamento",
+    "definicao": "Processo administrativo de chamamento público em que a administração pública convoca interessados em prestar serviços ou fornecer bens para que, preenchidos os requisitos necessários, se credenciem no órgão ou na entidade para executar o objeto quando convocados;"
+  },
+  {
+    "inciso": 44,
+    "termo": "pré-qualificação",
+    "definicao": "Procedimento seletivo prévio à licitação, convocado por meio de edital, destinado à análise das condições de habilitação, total ou parcial, dos interessados ou do objeto;"
+  },
+  {
+    "inciso": 45,
+    "termo": "sistema de registro de preços",
+    "definicao": "Conjunto de procedimentos para realização, mediante contratação direta ou licitação nas modalidades pregão ou concorrência, de registro formal de preços relativos a prestação de serviços, a obras e a aquisição e locação de bens para contratações futuras;"
+  },
+  {
+    "inciso": 46,
+    "termo": "ata de registro de preços",
+    "definicao": "Documento vinculativo e obrigacional, com característica de compromisso para futura contratação, no qual são registrados o objeto, os preços, os fornecedores, os órgãos participantes e as condições a serem praticadas, conforme as disposições contidas no edital da licitação, no aviso ou instrumento de contratação direta e nas propostas apresentadas;"
+  },
+  {
+    "inciso": 47,
+    "termo": "órgão ou entidade gerenciadora",
+    "definicao": "Órgão ou entidade da administração pública responsável pela condução do conjunto de procedimentos para registro de preços e pelo gerenciamento da ata de registro de preços dele decorrente;"
+  },
+  {
+    "inciso": 48,
+    "termo": "órgão ou entidade participante",
+    "definicao": "Órgão ou entidade da administração pública que participa dos procedimentos iniciais da contratação para registro de preços e integra a ata de registro de preços;"
+  },
+  {
+    "inciso": 49,
+    "termo": "órgão ou entidade não participante",
+    "definicao": "Órgão ou entidade da administração pública que não participa dos procedimentos iniciais da licitação para registro de preços e não integra a ata de registro de preços;"
+  },
+  {
+    "inciso": 50,
+    "termo": "comissão de contratação",
+    "definicao": "Conjunto de agentes públicos indicados pela administração, em caráter permanente ou especial, com a função de receber, examinar e julgar documentos relativos às licitações e aos procedimentos auxiliares;"
+  },
+  {
+    "inciso": 51,
+    "termo": "catálogo eletrônico de padronização de compras, serviços e obras",
+    "definicao": "Sistema informatizado, de gerenciamento centralizado e com indicação de preços, destinado a permitir a padronização de itens a serem adquiridos pela administração pública e que estarão disponíveis para a licitação;"
+  },
+  {
+    "inciso": 52,
+    "termo": "sítio eletrônico oficial",
+    "definicao": "Sítio da internet, certificado digitalmente por autoridade certificadora, no qual o ente federativo divulga de forma centralizada as informações e os serviços de governo digital dos seus órgãos e entidades;"
+  },
+  {
+    "inciso": 53,
+    "termo": "contrato de eficiência",
+    "definicao": "Contrato cujo objeto é a prestação de serviços, que pode incluir a realização de obras e o fornecimento de bens, com o objetivo de proporcionar economia ao contratante, na forma de redução de despesas correntes, remunerado o contratado com base em percentual da economia gerada;"
+  },
+  {
+    "inciso": 54,
+    "termo": "seguro-garantia",
+    "definicao": "Seguro que garante o fiel cumprimento das obrigações assumidas pelo contratado;"
+  },
+  {
+    "inciso": 55,
+    "termo": "produtos para pesquisa e desenvolvimento",
+    "definicao": "Bens, insumos, serviços e obras necessários para atividade de pesquisa científica e tecnológica, desenvolvimento de tecnologia ou inovação tecnológica, discriminados em projeto de pesquisa;"
+  },
+  {
+    "inciso": 56,
+    "termo": "sobrepreço",
+    "definicao": "Preço orçado para licitação ou contratado em valor expressivamente superior aos preços referenciais de mercado, seja de apenas 1 (um) item, se a licitação ou a contratação for por preços unitários de serviço, seja do valor global do objeto, se a licitação ou a contratação for por tarefa, empreitada por preço global ou empreitada integral, semi-integrada ou integrada;"
+  },
+  {
+    "inciso": 57,
+    "termo": "superfaturamento",
+    "definicao": "Dano provocado ao patrimônio da administração, caracterizado, entre outras situações, por: a) medição de quantidades superiores às efetivamente executadas ou fornecidas; b) deficiência na execução de obras e de serviços de engenharia que resulte em diminuição da sua qualidade, vida útil ou segurança; c) alterações no orçamento de obras e de serviços de engenharia que causem desequilíbrio econômico-financeiro do contrato em favor do contratado; d) outras alterações de cláusulas financeiras que gerem recebimentos contratuais antecipados, distorção do cronograma físico-financeiro, prorrogação injustificada do prazo contratual com custos adicionais para a administração ou reajuste irregular de preços;"
+  },
+  {
+    "inciso": 58,
+    "termo": "reajustamento em sentido estrito",
+    "definicao": "Forma de manutenção do equilíbrio econômico-financeiro de contrato consistente na aplicação do índice de correção monetária previsto no contrato, que deve retratar a variação efetiva do custo de produção, admitida a adoção de índices específicos ou setoriais;"
+  },
+  {
+    "inciso": 59,
+    "termo": "repactuação",
+    "definicao": "Forma de manutenção do equilíbrio econômico-financeiro de contrato utilizada para serviços contínuos com regime de dedicação exclusiva de mão de obra ou predominância de mão de obra, por meio da análise da variação dos custos contratuais, devendo estar prevista no edital com data vinculada à apresentação das propostas, para os custos decorrentes do mercado, e com data vinculada ao acordo, à convenção coletiva ou ao dissídio coletivo ao qual o orçamento esteja vinculado, para os custos decorrentes da mão de obra;"
+  },
+  {
+    "inciso": 60,
+    "termo": "agente de contratação",
+    "definicao": "Pessoa designada pela autoridade competente, entre servidores efetivos ou empregados públicos dos quadros permanentes da administração pública, para tomar decisões, acompanhar o trâmite da licitação, dar impulso ao procedimento licitatório e executar quaisquer outras atividades necessárias ao bom andamento do certame até a homologação. capítulo iv dos agentes públicos"
+  }];
+
+    const tbody = document.querySelector("#tabela-definicoes tbody");
+
+    definicoes.forEach(item => {
+      const row = document.createElement("tr");
+
+      const cellInciso = document.createElement("td");
+      cellInciso.textContent = item.inciso;
+      row.appendChild(cellInciso);
+
+      const cellTermo = document.createElement("td");
+      cellTermo.textContent = item.termo;
+      row.appendChild(cellTermo);
+
+      const cellDef = document.createElement("td");
+      cellDef.textContent = item.definicao;
+      row.appendChild(cellDef);
+
+      tbody.appendChild(row);
+    });
+  </script>
+</body>
+</html>
